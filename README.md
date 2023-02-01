@@ -23,3 +23,30 @@ TextBlob is a python library used for processing textual data, including sentime
 
 The sentiment property of TextBlob objects returns a namedtuple of the form (polarity, subjectivity), where polarity is a float between -1 and 1, representing the sentiment of the text **(-1 is negative, 0 is neutral, and 1 is positive)**, and subjectivity is a float between 0 and 1, representing the subjectivity of the text (0 is objective, and 1 is subjective). **To use TextBlob for sentiment analysis, simply create a TextBlob object and call its sentiment property.**
 
+# Feature Engineering
+
+With Natural Language Processing, the purpose of feature engineering is to transform the tokenized text data into numerical vectors that the machine learning algorithm can "understand."
+
+In this notebook, we'll be iterating through three different feature engineering techniques: **Count Vectorization and TF-IDF Vectorization**. Trying out these techniques could yield vastly different metrics on the same four baseline models.
+
+## Train-Test Split
+First, let's perform a train-test split of the dataset, where 20% is reserved as unseen testing data.
+
+## TF-IDF Vectorization
+
+First, we’ll be trying one of the most popular methods, TF-IDF Vectorization.
+
+This is an acronym that stands for “Term Frequency — Inverse Document” Frequency which are the components of the resulting scores assigned to each word.
+- Term Frequency: This summarizes how often a given word appears within a document.
+- Inverse Document Frequency: This down scales words that appear a lot across documents.
+
+Without going into the math, TF-IDF are word frequency scores that try to highlight words that are more interesting, e.g. frequent in a document but not across other documents.
+#Conclusion :
+After analysis all three model the **best f1 score and recall value we are getting in logistic regression model**.
+
+**F1 score : 0.75\
+recall   : 0.77**
+
+over all we are getting 2441 unique hate speech word in our data set.
+This model will help to idetentify hate speech tweet easily.
+word like criminal ,fraud, bad and many more are most occuring word in hate speech  in this data set.
