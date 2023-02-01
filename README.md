@@ -63,3 +63,5 @@ recall   : 0.77**
 over all we are getting 2441 unique hate speech word in our data set.
 This model will help to idetentify hate speech tweet easily.
 word like criminal ,fraud, bad and many more are most occuring word in hate speech  in this data set.
+
+<img src="icon_cloud.png" width="700" height="400">
