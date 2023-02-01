@@ -23,7 +23,7 @@ TextBlob is a python library used for processing textual data, including sentime
 
 The sentiment property of TextBlob objects returns a namedtuple of the form (polarity, subjectivity), where polarity is a float between -1 and 1, representing the sentiment of the text **(-1 is negative, 0 is neutral, and 1 is positive)**, and subjectivity is a float between 0 and 1, representing the subjectivity of the text (0 is objective, and 1 is subjective). **To use TextBlob for sentiment analysis, simply create a TextBlob object and call its sentiment property.**
 
-<img src="word_venn.png" width="700" height="400">
+<img src="word_vennn.png" width="700" height="400">
 # Feature Engineering
 
 With Natural Language Processing, the purpose of feature engineering is to transform the tokenized text data into numerical vectors that the machine learning algorithm can "understand."
