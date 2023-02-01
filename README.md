@@ -1,7 +1,7 @@
 # Hate-speech-identification---Twitter
 # Overview
 
-<img src="test.jpg" width="700" height="200">
+<img src="test.jpg" width="700" height="400">
 
 This project aims to identify **hate speech** using *machine learning binary classification algorithms*.
 Baseline models included Random Forest, Naive Bayes, Logistic Regression. The final model was a *Logistic Regression* model that used TD-IDF for feature engineering.
@@ -23,7 +23,7 @@ TextBlob is a python library used for processing textual data, including sentime
 
 The sentiment property of TextBlob objects returns a namedtuple of the form (polarity, subjectivity), where polarity is a float between -1 and 1, representing the sentiment of the text **(-1 is negative, 0 is neutral, and 1 is positive)**, and subjectivity is a float between 0 and 1, representing the subjectivity of the text (0 is objective, and 1 is subjective). **To use TextBlob for sentiment analysis, simply create a TextBlob object and call its sentiment property.**
 
-<img src="word_venn.png" width="700" height="200">
+<img src="word_venn.png" width="700" height="400">
 # Feature Engineering
 
 With Natural Language Processing, the purpose of feature engineering is to transform the tokenized text data into numerical vectors that the machine learning algorithm can "understand."
