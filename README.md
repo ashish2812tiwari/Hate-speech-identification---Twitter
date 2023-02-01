@@ -41,7 +41,8 @@ This is an acronym that stands for “Term Frequency — Inverse Document” Fre
 - Inverse Document Frequency: This down scales words that appear a lot across documents.
 
 Without going into the math, TF-IDF are word frequency scores that try to highlight words that are more interesting, e.g. frequent in a document but not across other documents.
-#Conclusion :
+
+# Conclusion :
 After analysis all three model the **best f1 score and recall value we are getting in logistic regression model**.
 
 **F1 score : 0.75\
