@@ -42,6 +42,17 @@ This is an acronym that stands for “Term Frequency — Inverse Document” Fre
 
 Without going into the math, TF-IDF are word frequency scores that try to highlight words that are more interesting, e.g. frequent in a document but not across other documents.
 
+## Evaluation Metrics
+
+For this business problem, **we will use F1 score as the main metric**, while also looking at Precision and Recall. The F1 score finds the harmonic mean between Precision and Recall, and it's useful for data with high class imbalance.
+
+**Overall, we want as much hate speech to flagged as possible** and so that it can be efficiently removed. This means also **optomizing the True Positive Rate**,  Recall.
+
+### Weighted F1 Score
+
+We will also be looking at the weighted F1 score, as it **can account for the class imbalance in labels by calculating metrics for each label**. It finds their average weighted by support (the number of true instances for each label). This results in a F1 score that is not between precision and recall.
+
+
 # Conclusion :
 After analysis all three model the **best f1 score and recall value we are getting in logistic regression model**.
 
